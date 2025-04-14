@@ -1,0 +1,248 @@
+body {
+  padding: 8px;
+}
+.personal_details img {
+  width: 350px;
+  height: 300px;
+}
+.personal_details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+}
+hr {
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+
+.personal_details_infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.date {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+}
+
+.experience {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+}
+
+.religion {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+}
+
+.passport {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+}
+
+.education {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+}
+
+/* Media */
+
+@media (max-width: 1000px) {
+  .personal_details_infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.date {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+}
+
+.experience {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+}
+
+.religion {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+}
+
+.passport {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+}
+
+.education {
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+}
+.personal_details img {
+  width: 270px;
+  height: 250px;
+}
+
+}
+
+@media (max-width: 600px) {
+  .personal_details_infos {
+  display: block;
+  align-items: center;
+}
+
+.date {
+  display: grid;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  justify-content: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+  align-items: center;
+  
+}
+
+.experience {
+  display: grid;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  align-items: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+  justify-content: center;
+  
+}
+
+.religion {
+  display: grid;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  align-items: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+  justify-content: center;
+}
+
+.passport {
+  display: grid;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  align-items: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+  justify-content: center;
+}
+
+.education {
+  display: grid;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  width: 200px;
+  padding: 8px;
+  align-items: center;
+  color: white;
+  height: 140px;
+  margin: 8px;
+  justify-content: center;
+}
+.personal_details img {
+  width: 150px;
+  height: 170px;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 15px;
+}
+
+.info {
+  transform: translateX(-45px);
+
+}
+}
